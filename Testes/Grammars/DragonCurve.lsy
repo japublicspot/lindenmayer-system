@@ -1,0 +1,7 @@
+angle 8
+order 10
+axiom FX
+
+F = >
+X = -FX++FY-
+Y = +FX--FY+

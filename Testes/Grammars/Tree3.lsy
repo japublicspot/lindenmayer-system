@@ -1,0 +1,8 @@
+angle 16
+rotate 90
+axiom X
+order 8
+
+X = F-[[>6X]+X]+F[>6+FX]->X
+F = FF
+

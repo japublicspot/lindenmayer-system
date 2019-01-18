@@ -1,0 +1,9 @@
+order 11
+angle 4
+axiom WZYX
+
+W = FW+F-XFW-F+Z
+X = ++F--Y-F+Z++F--Y-F+Z
+Y = ++F--Y+F-X
+Z = FW+F-X
+F =

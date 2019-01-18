@@ -1,0 +1,47 @@
+
+
+Esta pasta contém o resultado de todos os arquivos .lsy contidos em Grammars. 
+Os arquivos .ps aqui contidos estão no formato exigido pela primeira parte do trabalho, 
+existindo apenas os comandos F, G, +, -, [ e ]. Todos os outros comandos, como > e @ foram eliminados, 
+assim, caso algum arquivo .lsy possua em sua regra ou axioma os comandos @, | e !, eles serão eliminados, 
+gerando imagens indesejadas. Como os comandos >, < e c geram apenas cor, os arquivos desta pasta serão em preto e branco. 
+Os comandos > e @ e vários outros foram implementados para a segunda e terceira parte do 
+trabalho e o resultado dos arquivos contidos em Grammars com todos estes comandos estão na pasta Parte2&3-PS.
+
+
+Os arquivos Tree2.ps, Tree3.ps e DekkingsChurch.ps demoram um pouco para carregar, em especial o DekkingsChurch.ps.
+Acredito que o motivo para os arquivos Tree2.ps e Tree3.ps demorarem para carregar seja a grande quantidade de push e pop.
+Já para o DekkingsChurch.ps, acredito que seja pelo seu tamanho, cerca de 94500 linhas de comandos demoram um pouco para processar.
+
+
+Algumas imagens ficaram pequenas demais, e como order foi o valor definido para ajustar a escala dos arquivos postscript, 
+mudei o valor de order (abri o arquivo e mudei o valor após /order) para deixar a imagem bem dimensionada.
+Os arquivos que alterei o order possui em seu nome o valor da ordem atual entre parênteses, sendo que os arquivos sem o parênteses 
+e a ordem são os originais.
+
+Alguns arquivos que ficaram pequenos demais:
+
+CantorDust
+Basic_Y_Fractal
+Hilbert
+DragonCurve 
+CasarosSweep
+Tree1
+
+
+Alguns arquivos ficaram com parte da imagem cortada, e são eles:
+
+CantorDust
+Moore
+KochSnowflake
+Doily quase
+HexCrystal
+
+
+Alguns arquivos que ficaram diferentes do desejado, pois precisavam de comandos que não foram implementados para a parte 1:
+
+sphinx
+Basic_Y_Fractal
+CasarosSweep
+Tree1
+

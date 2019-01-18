@@ -1,0 +1,5 @@
+order 4
+angle 12
+axiom c100F--F--F--F--F--F
+
+F = -F[<8--F--F]++F[<8++F--F]--F+

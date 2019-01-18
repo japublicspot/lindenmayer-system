@@ -1,0 +1,26 @@
+
+Esta pasta contém o resultado de todos os arquivos .lsy contidos em Grammars. 
+Os arquivos .ps aqui contidos estão no formato exigido pela segunda e terceira parte do trabalho.
+
+Algumas imagens ficaram pequenas demais, e como order foi o valor definido para ajustar a escala dos arquivos postscript, 
+mudei o valor de order (abri o arquivo e mudei o valor após /order) para deixar a imagem bem dimensionada.
+Os arquivos que alterei o order possui em seu nome o valor da ordem atual entre parênteses, sendo que os arquivos sem o parênteses 
+e a ordem são os originais.
+
+
+Alguns arquivos que ficaram pequenos demais:
+
+CantorDust
+Basic_Y_Fractal 
+Hilbert
+DragonCurve
+HexCrystal
+Doily
+
+Alguns arquivos ficaram com parte da imagem cortada, e são eles:
+
+CantorDust
+Mooreturtle 
+KochSnowflake
+
+

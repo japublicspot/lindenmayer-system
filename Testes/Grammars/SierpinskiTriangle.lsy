@@ -1,0 +1,7 @@
+order 6   ; https://en.wikipedia.org/wiki/Sierpinski_triangle
+angle 3
+rotate 180
+axiom F-G-G
+
+F = F-G+F+G-F
+G = GG

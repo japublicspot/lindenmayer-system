@@ -1,0 +1,81 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%BoundingBox: 0 0 800 1000
+
+
+
+% Preambulo
+
+
+/angle 3.00 def
+/order 5 def
+/rotateimage 0.00 def
+
+/a { 360 angle div } def
+/scal { 2 order neg exp } def	% 1/2^order
+/sinv { 2 order exp } def	% 2^order
+
+/len 72 def
+
+
+/F { len 0 rlineto } def
+/G   { len 0 rmoveto } def
+/+ {a rotate} def
+/- {a neg rotate} def
+
+/S { gsave } def
+/R { stroke grestore } def
+
+/n {newpath} def
+/l {lineto} def
+/m {moveto} def
+/s {stroke} def
+
+/pageLetterCenter { 297.72 421.2 } def
+/linewidth 0.1 def
+
+gsave
+
+pageLetterCenter translate
+rotateimage rotate
+scal scal scale
+linewidth setlinewidth
+newpath 0 0 moveto
+ 0.7216 0.5294 0.0431 setrgbcolor 
+ n 0.0000 0.0000 m 72.0000 0.0000 l s 
+ n 144.0000 0.0000 m 216.0000 0.0000 l s 
+ n 432.0000 0.0000 m 504.0000 0.0000 l s 
+ n 576.0000 0.0000 m 648.0000 0.0000 l s 
+ n 1296.0000 0.0000 m 1368.0000 0.0000 l s 
+ n 1440.0000 0.0000 m 1512.0000 0.0000 l s 
+ n 1728.0000 0.0000 m 1800.0000 0.0000 l s 
+ n 1872.0000 0.0000 m 1944.0000 0.0000 l s 
+ n 3888.0000 0.0000 m 3960.0000 0.0000 l s 
+ n 4032.0000 0.0000 m 4104.0000 0.0000 l s 
+ n 4320.0000 0.0000 m 4392.0000 0.0000 l s 
+ n 4464.0000 0.0000 m 4536.0000 0.0000 l s 
+ n 5184.0000 0.0000 m 5256.0000 0.0000 l s 
+ n 5328.0000 0.0000 m 5400.0000 0.0000 l s 
+ n 5616.0000 0.0000 m 5688.0000 0.0000 l s 
+ n 5760.0000 0.0000 m 5832.0000 0.0000 l s 
+ n 11664.0000 0.0000 m 11736.0000 0.0000 l s 
+ n 11808.0000 0.0000 m 11880.0000 0.0000 l s 
+ n 12096.0000 0.0000 m 12168.0000 0.0000 l s 
+ n 12240.0000 0.0000 m 12312.0000 0.0000 l s 
+ n 12960.0000 0.0000 m 13032.0000 0.0000 l s 
+ n 13104.0000 0.0000 m 13176.0000 0.0000 l s 
+ n 13392.0000 0.0000 m 13464.0000 0.0000 l s 
+ n 13536.0000 0.0000 m 13608.0000 0.0000 l s 
+ n 15552.0000 0.0000 m 15624.0000 0.0000 l s 
+ n 15696.0000 0.0000 m 15768.0000 0.0000 l s 
+ n 15984.0000 0.0000 m 16056.0000 0.0000 l s 
+ n 16128.0000 0.0000 m 16200.0000 0.0000 l s 
+ n 16848.0000 0.0000 m 16920.0000 0.0000 l s 
+ n 16992.0000 0.0000 m 17064.0000 0.0000 l s 
+ n 17280.0000 0.0000 m 17352.0000 0.0000 l s 
+ n 17424.0000 0.0000 m 17496.0000 0.0000 l s 
+stroke
+
+grestore
+
+showpage
+quit

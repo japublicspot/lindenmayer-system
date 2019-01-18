@@ -1,0 +1,6 @@
+angle 12
+axiom +++FX
+order 11
+
+X = @.6[>4-FY]+FX
+Y = FX+FY-FX

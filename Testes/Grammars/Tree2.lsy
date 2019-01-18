@@ -1,0 +1,7 @@
+angle 14
+rotate 90
+order 9
+axiom X
+
+X = F[>8+X][>8-X]FX
+F = FF
